@@ -48,7 +48,7 @@ const Buy = () => {
           {/* Step 4 */}
           <div className="bg-yellow-400 p-6 rounded-lg shadow-lg border-4 border-yellow-950 text-left min-h-[400px] w-full flex flex-col card-hover transition-transform duration-300 ease-in-out">
             <h2 className="text-3xl font-bold mb-4 text-center text-yellow-950">STEP 4</h2>
-            <Image src={Logo} width={56} height={56} className="text-yellow-950 mx-auto mb-4 rounded-full border-2 border-yellow-950" />
+            <Image alt="logo" src={Logo} width={56} height={56} className="text-yellow-950 mx-auto mb-4 rounded-full border-2 border-yellow-950" />
             <h3 className="text-xl font-bold mb-2 text-center text-black">BUY $DEGGY</h3>
             <p className="text-black text-center flex-grow">
               Switch SOL for $DEGGY. We have Zero taxes so you don’t need to worry about buying with a specific slippage.

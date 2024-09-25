@@ -12,7 +12,7 @@ const About = () => {
         </h1>
         <p className="mt-4 text-black text-base md:text-lg">
           Deggy the Degenerate Gnome thrives in the wild world of meme coins, embracing reckless speculation and bold financial moves. His token, Deggy Coin, rewards those brave enough to hold on through the wild swings. 
-          With Deggy, it's all about embracing the thrill of the degenerate path!
+          With Deggy, it&apos;s all about embracing the thrill of the degenerate path!
         </p>
 
         {/* Mascot Image */}
