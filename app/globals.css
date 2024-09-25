@@ -2,23 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@font-face {
+  font-family: "Bebas Nueue";
+  src: url(./fonts/BebasNeue.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+
+@font-face {
+  font-family: "Cutie Molly";
+  src: url(./fonts/CutieMolly.ttf);
 }
+
+@font-face {
+  font-family: "Mali";
+  src: url(./fonts/Mali-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mali-Bold";
+  src: url(./fonts/Mali-Bold.ttf);
+}
+
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FDF4E3;
+  font-family: "Mali", sans-serif;
 }
+
+.molly {
+  font-family: "Cutie Molly", sans-serif;
+}
+
+.bebas {
+  font-family: "Bebas Nueue", sans-serif;
+}
+
+.mali {
+  font-family: "Mali", sans-serif;
+}
+
+.mali-bold {
+  font-family: "Mali-Bold", sans-serif;
+}
+
+
+.shadow {
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.card-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
 
 @layer utilities {
   .text-balance {
