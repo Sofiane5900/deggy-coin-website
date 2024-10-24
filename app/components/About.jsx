@@ -1,4 +1,3 @@
-"use client"
 import React from 'react';
 import Logo from '../asset/logo.png';
 import Image from 'next/image';
@@ -28,7 +27,7 @@ const About = () => {
           Rug Pull Royal Coin reigns supreme in the unpredictable world of meme coins, 
           where high risks meet even higher rewards. In a kingdom where only the bold survive, 
           $RPR Coin challenges you to outwit the chaos and emerge victorious.
-          Whether you're here for the thrill or the fortune, Rug Pull Royal embraces the daring spirit of the meme coin arena. Hold on tight—loyalty to the crown might just be your key to riches!
+          Whether you&#39;re here for the thrill or the fortune, Rug Pull Royal embraces the daring spirit of the meme coin arena. Hold on tight—loyalty to the crown might just be your key to riches!
         </p>
 
         {/* Mascot Image */}
@@ -47,7 +46,7 @@ const About = () => {
           </span>
           <button 
             className="ml-2 md:ml-4 bg-yellow-300 text-white px-3 md:px-4 py-1 md:py-2 rounded-full hover:scale-105 transition-transform border-2  drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] "
-            onClick={handleCopy} // Add onClick handler
+            onClick={handleCopy}
           >
             Copy
           </button>
