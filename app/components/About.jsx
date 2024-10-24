@@ -44,7 +44,7 @@ const About = () => {
         {/* Contract and CTA */}
         <div className="mt-8 bg-white inline-block rounded-full px-4 md:px-6 py-2 md:py-3 border-4 border-yellow-300">
           <span className="font-semibold text-black text-sm md:text-base" style={{ textShadow: '1px 1px 0 #FFF' }}>
-            <span>CA: </span>{contractAddress}
+            <span>CA: CwtNwQ7y5scUYEqvrehMB6r4haPSwSNYJApfLjn6THuE </span>{contractAddress}
           </span>
           <button 
             className="ml-2 md:ml-4 bg-yellow-300 text-white px-3 md:px-4 py-1 md:py-2 rounded-full hover:scale-105 transition-transform border-2  drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] "
