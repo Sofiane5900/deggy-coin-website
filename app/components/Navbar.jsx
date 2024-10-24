@@ -28,10 +28,10 @@ const Navbar = () => {
       <div className="flex items-center space-x-4">
         {/* Mobile Icons */}
         <div className="flex space-x-4">
-          <a href="https://t.me/SNcatSOL" className="p-2 border-yellow-300 rounded-full border-4 text-white hover:scale-110 transition-transform duration-75">
+          <a href="https://t.me/RugPullRoyal" className="p-2 border-yellow-300 rounded-full border-4 text-white hover:scale-110 transition-transform duration-75">
             <FaTelegramPlane className="w-6 h-6" />
           </a>
-          <a href="https://x.com/home" className="p-2 border-yellow-300 rounded-full border-4 text-white hover:scale-110 transition-transform duration-75">
+          <a href="https://x.com/bobbob1571707" className="p-2 border-yellow-300 rounded-full border-4 text-white hover:scale-110 transition-transform duration-75">
             <FaXTwitter className="w-6 h-6" />
           </a>
         </div>
