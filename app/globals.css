@@ -25,11 +25,20 @@
   src: url(./fonts/Mali-Bold.ttf);
 }
 
+@font-face {
+  font-family: "blockhead";
+  src: url(./fonts/YouBlockhead.ttf);
+}
+
 
 
 body {
-  background-color: #FDF4E3;
-  font-family: "Mali", sans-serif;
+  background: linear-gradient(to right, #2563eb, #3b82f6, #2563eb);
+  font-family: "blockhead", sans-serif;
+}
+
+.blockhead {
+  font-family: "blockhead", sans-serif;
 }
 
 .molly {

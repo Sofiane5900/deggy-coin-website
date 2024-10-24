@@ -2,7 +2,7 @@ import React from 'react';
 import { FaWallet, FaExchangeAlt } from 'react-icons/fa';
 import { SiSolana } from 'react-icons/si';
 import Image from 'next/image';
-import Logo from '../asset/Logo.webp';
+import Logo from '../asset/logo.png';
 
 const Buy = () => {
   return (

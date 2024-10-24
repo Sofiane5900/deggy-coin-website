@@ -6,11 +6,9 @@ import Plan from "./components/Plan";
 
 export default function Home() {
   return (
-    <div className="container m-auto">
+    <div className=" container m-auto">
       <Navbar />
       <About />
-      <Buy />
-      <Plan />
     </div>
   );
 }
